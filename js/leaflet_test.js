@@ -6,3 +6,13 @@ function onMapClick(e) {
 }
 
 map.on('click', onMapClick);
+
+let xhr = new XMLHttpRequest();
+xhr.open('GET', 'data/windsurf_spots.geojson');
+xhr.setRequestHeader('Content-Type', 'application/json');
+xhr.responseType = 'json';
+xhr.onload = function() {
+	    if (xhr.status !== 200) return
+	    L.geoJSON(xhr.response).addTo(map);
+};
+xhr.send();

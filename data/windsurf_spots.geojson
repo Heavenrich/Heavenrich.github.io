@@ -1,0 +1,136 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grimsby"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.60052036762899,
+          43.212675117981206
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burlington Beach"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.79934851631636,
+          43.30884186406547
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CCIW"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.80214587998834,
+          43.30142994240248
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamilton Beach"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.79285526239252,
+          43.29607608172981
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hutches"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.76510140335569,
+          43.25944759775447
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pier 4"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.8684247114811,
+          43.275410136712736
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fifty Point "
+      },
+      "geometry": {
+        "coordinates": [
+          -79.61840869117263,
+          43.22435593436791
+        ],
+        "type": "Point"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burloak"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.72687673236366,
+          43.36874065316604
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coronation Park"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.69122321581108,
+          43.41051175309397
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cherry Beach"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.33897048333672,
+          43.63935947046369
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
