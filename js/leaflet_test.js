@@ -16,3 +16,20 @@ xhr.onload = function() {
 	    L.geoJSON(xhr.response).addTo(map);
 };
 xhr.send();
+
+
+// GTFS Code
+
+const url = "https://opendata.hamilton.ca/GTFS-RT/GTFS_VehiclePositions.pb?cacheBust=" + new Date().getTime();
+let response = await fetch(url);
+if (response.ok) {
+  // if HTTP-status is 200-299
+  // get the response body (the method explained below)
+  const bufferRes = await response.arrayBuffer();
+  const pbf = new Pbf(new Uint8Array(bufferRes));
+  const obj = FeedMessage.read(pbf);
+
+  console.log("the data!", obj.entity);
+} else {
+  console.error("error:", response.status);
+}
